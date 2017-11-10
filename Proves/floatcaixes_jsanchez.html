@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Float</title>
+    <meta author="Jefferson">
+    <style>
+
+    body{
+      margin: 0;
+      padding: 0;
+    }
+
+    .quadrat{
+      background-color: blue;
+      width: 250px;
+      height: 40px;
+      margin: 0px;
+      font-family: Helvetica;
+      font-size: 20px;
+      overflow: hidden;
+  }
+
+    #contenidor {
+      width: 800px;
+      margin: 0 auto;
+    }
+    ul {
+      background-color: gold;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+    li{
+      background-color: yellow;
+      margin: 1px;
+      display: block;
+      float: left;
+      height: 30px;
+      padding: 10px;
+      font-family: helvetica;
+      font-variant: small-caps;
+    }
+    li:hover{
+      background-color: white;
+
+    }
+    #cap {
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-image: url(coffee-beans-926837_960_720.jpg);
+    color: ivory;
+    text-align: center;
+    }
+
+    #menu {
+    background-color: red;
+    text-align: center;
+    float: right;
+    width: 60%;
+    height: 800px;
+    margin-left: 0;
+    margin-right: 0;
+    }
+    #principal {
+      background-color: gold;
+      text-align: center;
+      border: dotted 5px black;
+      float: left;
+      width: 38.75%;
+      height: 790px;
+      margin-left: 0;
+      margin-right: 0;
+
+    }
+    #peu {
+      background-color: black;
+      text-align: center;
+      float: left;
+      width: 100%;
+      height: 100px;
+      margin-left: 0;
+      margin-right: 0;
+
+    }
+
+    </style>
+  </head>
+
+  <body>
+      <div id="contenidor">
+          <div id="cap" class="quadrat">
+            <h1>MyCoffeeXop</h1>
+          </div>
+          <ul id="Lista">
+            <li>Inici</li>
+            <li>Productes</li>
+            <li>Serveis</li>
+            <li>botiga</li>
+            <li>Contacte</li>
+          </ul>
+          <div id="menu" class="quadrat">
+            <p>Principal</p>
+          </div>
+          <div id="principal" class="quadrat">
+            <p>Menu</p>
+          </div>
+          <div id="peu" class="quadrat">
+            <p>Peu</p>
+          </div>
+      </div>
+
+
+
+
+  </body>
+</html>
