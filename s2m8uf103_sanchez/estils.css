@@ -16,10 +16,11 @@ font-family: 'lucida grande', tahoma, san francisco, roboto, segoe UI;
   }
 
 #contenidor {
-  height: 1500px;
+  height: 2000px;
   width: 852px;
   background-color: #FFF;
   margin: 0 auto;
+  overflow: hidden;
   }
 
 #portada {
@@ -64,6 +65,7 @@ font-family: 'lucida grande', tahoma, san francisco, roboto, segoe UI;
   margin: 0 0 0 1px;
   height: 44px;
   line-height: 44px;
+  overflow: hidden;
 }
 #menu li:hover {
   color: #000;
@@ -80,9 +82,21 @@ font-family: 'lucida grande', tahoma, san francisco, roboto, segoe UI;
   border: solid 1px #ccc;
   border-radius: 3px;
   margin:  10px 0;
+  float: left;
+  clear: both;
 }
+
+.dreta {
+  width: 513px;
+  margin: 10px 0;
+  border: solid 1px #CCC;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  top: -522px;
+}
+
 .esquerra h4{
-  background-color: yellow;
   height: 15px;
   padding: 5px;
   font-weight: normal;
@@ -114,7 +128,6 @@ font-family: 'lucida grande', tahoma, san francisco, roboto, segoe UI;
 }
 #fotos ul li {
   display: block;
-  background-color: yellowgreen;
   width: 99px;
   height: 99px;
   margin: 4px;
@@ -124,17 +137,14 @@ font-family: 'lucida grande', tahoma, san francisco, roboto, segoe UI;
 }
 #amics ul li {
   display: block;
-  background-color: red;
   width: 99px;
   height: 99px;
   margin: 4px;
   float: left;
   background-size: 99px 99px;
   color: white;
-  background-image: url(img/perfil.jpg);
   line-height: 178px;
   text-shadow: 0 0 2px #000;
-
 }
 
 #fotos ul {
@@ -150,6 +160,7 @@ font-family: 'lucida grande', tahoma, san francisco, roboto, segoe UI;
 .esquerra ul {
       margin-top: 20px;
 }
+
 #f01 {
   background-image: url(img/fotos/f1.jpg);
 }
@@ -176,4 +187,107 @@ font-family: 'lucida grande', tahoma, san francisco, roboto, segoe UI;
 }
 #f09 {
   background-image: url(img/fotos/f9.jpg);
+}
+
+#a01 {
+  background-image: url(https://dlopez-goicochea2018.github.io/MP08/s2m8uf103_lopez-goicochea/img/perfil.jpg);
+}
+#a02 {
+  background-image: url(https://jsagrera2018.github.io/MP08/s2m8uf103_sagrera/img/perfil.jpg);
+}
+#a03 {
+  background-image: url(https://amoreno2018.github.io/MP08/s2m8uf103_moreno/img/perfil.jpg);
+}
+#a04 {
+  background-image: url(https://kbaquerizo2018.github.io/MP08/s2m8uf103_baquerizo/img/perfil.jpg);
+}
+#a05 {
+  background-image: url(https://rgarcial2018.github.io/MP08/s2m8uf103_garcial/img/perfil.jpg);
+}
+#a06 {
+  background-image: url(https://fxolle.github.io/MP08/s2m8uf103_olle/im/perfil.jpg);
+}
+
+#pensa ul {
+  height: 40px;
+  background-color: #f5f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+#pensa ul li{
+  float: left;
+  margin: 5px 10px 0 35px;
+  padding-right: 10px;
+  border-right: solid 1px #CCC;
+  font-size: 14px;
+}
+
+#pensa ul li a {
+  display: block;
+  height: 34px;
+}
+#pensa ul li a:hover {
+  background-image: url(img/selec.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 30px;
+
+}
+
+#pensa div input{
+  height: 36px;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  width: 513px;
+}
+#presentacio {
+  list-style: url(img/.jpg);
+}
+#fotos {
+  list-style: url(img/.jpg);
+}
+#amics {
+  list-style: url(img/.jpg);
+}
+#icoestado {
+  list-style-image: url(img/post_estado.png);
+}
+#icovideo {
+  list-style-image: url(img/post_foto.png);
+}
+#icoacontecimiento {
+  list-style-image: url(img/post_directo.png);
+}
+
+/*-------Estils del mur-------*/
+
+h5{
+  font-style: normal;
+  font-weight: normal;
+  margin:0;
+  height: 10px;
+  padding: 5px;
+}
+h6{
+  font-style: normal;
+  font-weight: normal;
+  margin:0;
+  height: 10px;
+  padding: 5px;
+}
+b{
+  color: blue;
+}
+.postintro {
+  padding: 10px 10px 10px 50px;
+  background-image: url(img/perfil.jpg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: 10px 10px;
+}
+.post img , .post iframe, .post p {
+  font-size: 12px;
+  padding: 10px;
+  width: 493px;
 }
